@@ -54,8 +54,8 @@ Note: the OpenAI request is made directly from the client with an `EXPO_PUBLIC_`
 Prerequisites: Node.js, npm, and Xcode or Android Studio for native builds (the project uses `expo-dev-client`).
 
 ```bash
-git clone https://github.com/GersonRocha9/KerygmaAI.git
-cd KerygmaAI
+git clone https://github.com/GersonRocha9/kerygma-ai.git
+cd kerygma-ai
 npm install
 cp .env.example .env   # then set EXPO_PUBLIC_OPENAI_API_KEY
 ```
