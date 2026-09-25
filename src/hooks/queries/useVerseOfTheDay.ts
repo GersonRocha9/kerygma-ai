@@ -1,10 +1,11 @@
 import { useLanguage } from '@/src/hooks/useLanguage'
-import type { VerseOfTheDay } from '@/src/services/verseService'
 import { useQuery } from '@tanstack/react-query'
 
 // Importando os versículos mockados
 import versiculosPT from '@/src/i18n/versiculos-pt.json'
 import versiculosEN from '@/src/i18n/versiculos.json'
+
+export type VerseOfTheDay = string[]
 
 // Definindo interfaces para nossos versículos
 interface VersiculoMock {
